@@ -1,2 +1,2 @@
-# React-Study  
-Self study repo about React
+# DayReact(데일리액트)  
+Self study repo about daily React  
