@@ -4,9 +4,20 @@ class App extends Component {
 	state = {
 		hello: 'hello app jr!!'
 	};
+	
+	handleChange = () => {
+		this.setState({
+			hello: 'bye app js!'
+		});
+	};
 
 	render() {
-	  return <div className="App">{this.state.hello}</div>;
+		return (
+			<div className="App">
+				<div>{this.state.hello}</div>
+				<button onClick={this.handleChange}>click Me!</button>
+			</div>
+		);
 	}
 }
 
