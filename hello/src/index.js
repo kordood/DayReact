@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 
 ReactDOM.render(
-		<App />,
+		<App message="Hello Message" />,
 		document.getElementById('root')
 );
 
