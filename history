@@ -1,0 +1,23 @@
+# install node.js
+sudo mkdir -p /usr/local/lib/nodejs
+sudo tar -xJvf node-v10.16.1-linux-x64.tar.xz -C /usr/local/lib/nodejs
+
+vi ~/.profile
+# set env var as below
+# VERSION=v14.16.1
+# DISTRO=linux-x64
+# export PATH=/usr/local/lib/nodejs/node-$VERSION-$DISTRO/bin:$PATH
+source .profile
+
+# version check
+node -v
+npm version
+npx -v
+
+# create react app name as "hello"
+npx create-react-app hello
+
+# start "hello" react app!
+cd hello
+npm start
+
