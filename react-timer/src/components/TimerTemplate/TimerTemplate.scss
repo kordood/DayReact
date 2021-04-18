@@ -1,0 +1,36 @@
+@import '~open-color/open-color';
+
+.timer-template {
+	width: 60%;
+	height: 50%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: white;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+	.title {
+		width: 10rem;
+		height: 5rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		background-color: $oc-blue-5;
+		font-size: 3rem;
+	}
+
+	.form-template {
+		width: 30rem;
+	}
+
+	.children-template {
+		width: 3rem;
+		height: 3rem;
+		margin: 3rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}

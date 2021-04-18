@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames/bind';
-import from 'prop-types';
-import from './Button.scss';
+import PropTypes from 'prop-types';
+import styles from './Button.scss';
 
 const cx = classNames.bind(styles);
 
@@ -51,3 +51,5 @@ Button.defaultProps = {
 	handleSave: () => console.log('No handleSave!'),
 	contents: true,
 };
+
+export default Button;
