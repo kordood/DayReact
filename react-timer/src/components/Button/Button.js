@@ -10,7 +10,7 @@ contents }) => (
 	<div className={cx('Button-wrapper')}>
 		<div
 			className={cx('Button')}
-			onClick={onclick}
+			onClick={onClick}
 			onKeyDown={null}
 			role="Button"
 			tabIndex="0"

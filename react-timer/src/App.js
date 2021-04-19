@@ -16,10 +16,10 @@ class App extends Component {
 		const { contents, hour, min, sec } = this.state;
 
 		const starter = () => {
-			return contents ? this.timerChecker() : clearInterval(this.interval); // eslint rule: ? operator should be like this
+			return contents ? this.timeChecker() : clearInterval(this.interval); // eslint rule: ? operator should be like this
 		}
 
-		this.setstate(() => ({
+		this.setState(() => ({
 			contents: !contents,
 			time: Number((hour * 3600) + (min * 60) + sec)
 		}), () => starter());
